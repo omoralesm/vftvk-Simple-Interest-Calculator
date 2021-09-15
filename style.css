@@ -56,3 +56,12 @@ li {
   top: 25px;
   padding-top: 20px;
 }
+
+#result {
+  top: 25px;
+  padding: 10px;
+}
+
+p {
+  top: 10px;
+}
