@@ -1,4 +1,58 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+body {
+  margin: 20px auto;
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
 
+#maindiv {
+  background-color: white;
+  color: black;
+  width: 600px;
+  padding: 20px;
+  border-radius: 5%;
+  margin: auto;
+}
+
+h1 {
+  top: 30px;
+  margin: auto;
+  color: grey;
+  font-family: Verdana;
+}
+
+#formawrapper {
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#forma {
+  top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  padding-top: 20px;
+}
+
+.panel {
+  flex: 1 1 150px;
+}
+
+#bajoforma {
+  padding-top: 25px;
+  top: 25px;
+}
+
+#copyright {
+  top: 25px;
+  padding-top: 20px;
+}
